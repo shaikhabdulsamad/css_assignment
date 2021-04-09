@@ -13,40 +13,42 @@
 <body>
 
     <div class="main">
-        <div class="header">
-            <div class="nav_bar">
+        <div class="main_header">
+            <div class="header">
+                <div class="nav_bar">
 
-                <div class="logo">
-                    <img src="images/logo.svg" alt="logo" width="70px">
+                    <div class="logo">
+                        <img src="images/logo.svg" alt="logo" width="70px">
+                    </div>
+                    <div class="nav_item">
+                        <ul>
+                            <li><a href=""> Home</a></li>
+                            <li><a href=""> Menu</a></li>
+                            <li><a href=""> Service</a></li>
+                            <li><a href=""> Sign In</a></li>
+                            <li><a href=""> <img src="images/cart.svg" alt="cart" width="15px"></a></li>
+                        </ul>
+
+                    </div>
                 </div>
-                <div class="nav_item">
-                    <ul>
-                        <li><a href=""> Home</a></li>
-                        <li><a href=""> Menu</a></li>
-                        <li><a href=""> Service</a></li>
-                        <li><a href=""> Sign In</a></li>
-                        <li><a href=""> <img src="images/cart.svg" alt="cart" width="15px"></a></li>
-                    </ul>
+                <div class="menu" onclick="myFunction()">
+
+                    <div class="toggle"></div>
+                    <div class="toggle"></div>
+                    <div class="toggle"></div>
 
                 </div>
             </div>
-            <div class="menu">
-
-                <div class="toggle"></div>
-                <div class="toggle"></div>
-                <div class="toggle"></div>
-
+            <div class="small_screen " id="myDIV">
+                <ul>
+                    <li><a href=""> Home</a></li>
+                    <li><a href=""> Menu</a></li>
+                    <li><a href=""> Service</a></li>
+                    <li><a href=""> Sign In</a></li>
+                    <li><a href=""> <img src="images/cart.svg" alt="cart" width="15px"></a></li>
+                </ul>
             </div>
         </div>
-        <!-- <div class="small_screen">
-            <ul>
-                <li><a href=""> Home</a></li>
-                <li><a href=""> Menu</a></li>
-                <li><a href=""> Service</a></li>
-                <li><a href=""> Sign In</a></li>
-                <li><a href=""> <img src="images/cart.svg" alt="cart" width="15px"></a></li>
-            </ul>
-        </div> -->
 
         <div class="slide">
             <div class="slide_text">
@@ -275,6 +277,8 @@
         </div>
     </div>
 
+
+    <script src="app.js"></script>
 </body>
 
 </html>

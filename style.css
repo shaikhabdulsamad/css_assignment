@@ -19,11 +19,22 @@ body{
     align-items: center;
 }
 
+.main_header{
+    background-color: white;
+  width: 100%;
+  
+  /* display: flex;
+  justify-content: center;
+  align-items: center;  */
+  position: fixed;
+  top: 0;
+}
+
 .header{
-    top: 0;
-    
-    position: fixed;
-   background-color: white;
+   
+    margin: 0 auto;
+   
+   background-color: transparent;
   width: 70%;
     padding: 10px 0;
     
@@ -411,10 +422,11 @@ align-items: center;
 
 .figo{
     flex: 2;
+    padding: 0 10px;
 }
 .figo img{
     width: 60px;
-    /* margin-top: 40px; */
+    
 }
 
 .links {
@@ -424,7 +436,7 @@ align-items: center;
 .links h6{
     font-size: 16px;
     font-weight: 900;
-    padding: 10px;
+    padding: 10px 0;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -436,7 +448,7 @@ align-items: center;
 }
 .links ul li{
     list-style: none;
-    padding:  10px;
+    padding:  10px 0;
 }
 .links ul li a{
     text-decoration: none;
@@ -490,31 +502,36 @@ align-items: center;
     }
 
     .small_screen{
+        display: hidden;
+    
+    }
+
+    .show{
         display: block;
         width: 80%;
         /* background-color: grey; */
-        margin-top: 80px;
+        margin-top: 30px;
     
     }
     
-    .small_screen ul li{
+    .show ul li{
         list-style: none;
         margin-bottom: 5px;
         font-size: 15px;
 font-weight: 500;
     }
     
-    .small_screen ul li a{
+    .show ul li a{
         text-decoration: none;
         color: rgb(167, 167, 167);
     cursor: pointer;
         
     }
 
-    .small_screen ul li a:hover{
+    .show ul li a:hover{
         color: black;
     }
-    .small_screen ul li a:active{
+    .show ul li a:active{
         color: black;
     }
     
