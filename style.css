@@ -503,7 +503,7 @@ align-items: center;
     }
 
     .small_screen{
-        display: hidden;
+        display: none;
     
     }
 
