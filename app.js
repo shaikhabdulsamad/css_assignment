@@ -1,7 +1,9 @@
-function myFunction() {
-    document.getElementById("myDIV").className = "show";
-  }
+// function myFunction() {
+//     document.getElementById("myDIV").className = "show";
+//   }
 
-  // function myFunction() {
-  //   document.getElementById("myDIV").className = "small_screen";
-  // }
+  function myFunction() {
+    const navs = document.querySelectorAll('.small_screen')
+    
+    navs.forEach(nav => nav.classList.toggle('show'));
+  }
